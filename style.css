@@ -1,0 +1,97 @@
+h2 {
+    color:blue;
+
+    font-size: 40px;
+    text-align: center;
+
+}
+p{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    
+}
+body{
+    background-color: white;
+}
+span{
+    font-size: 25PX;
+    color: blue;
+}
+a {
+    color: cornflowerblue;
+}
+main{
+    display: flex;
+}
+section {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 70vh;
+}
+.divtext{
+    font-size: 30px;
+}
+div{
+    
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-section{
+    background-image: url("./photo2.jpg");
+    background-size: cover;
+}
+label{
+    color: rgb(4, 1, 165);
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px
+}
+button{
+    background-color: mediumblue;
+    margin-bottom: 30px;
+    width: 100%;
+    color: white;
+    padding:10px;
+    margin-top: 30px;
+    border:none;
+    height: 45px;
+}
+form{
+    width:500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+textarea{
+    width: 100%;
+    height:150px;
+    
+}
+img{
+    width:70%;
+    height: 500px;
+}
+footer{
+    
+    height: 50px;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footertext{
+    color: cornflowerblue;
+}
